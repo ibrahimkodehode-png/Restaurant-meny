@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { meny } from "./data/meny";
+import Menu from "./components/Menu";
+import styles from "./App.module.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main className={styles.app}>
+      <div className={styles.container}>
+        <header className={styles.header}>
+          <p className={styles.kicker}>Restaurantens meny</p>
+          <h1 className={styles.title}>Velkommen til vår digitale meny</h1>
+          <p className={styles.subtitle}>
+            Utforsk våre forretter, hovedretter og desserter.
+          </p>
+        </header>
+
+        <Menu dishes={meny} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </main>
+  );
 }
 
-export default App
+export default App;
