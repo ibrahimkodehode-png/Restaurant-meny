@@ -5,6 +5,7 @@ export const meny = [
     pris: "159 kr",
     ingredienser: "Spaghetti, kjøttsaus, parmesan",
     kategori: "Hovedrett",
+    bilde: "/images/Spaghetti bolognese.jpg",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const meny = [
     pris: "129 kr",
     ingredienser: "Kylling, fløte, gulrøtter, selleri",
     kategori: "Forrett",
+    bilde: "/images/Kremet kyllingsuppe.jpg",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const meny = [
     pris: "169 kr",
     ingredienser: "Tomatsaus, mozzarella, basilikum",
     kategori: "Hovedrett",
+    bilde: "/images/Margarita pizza.jpg",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const meny = [
     pris: "229 kr",
     ingredienser: "Laks, tunfisk, reker, ris",
     kategori: "Hovedrett",
+    bilde: "/images/Sushi-mix.jpg",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const meny = [
     pris: "139 kr",
     ingredienser: "Romanosalat, kylling, parmesan, dressing",
     kategori: "Forrett",
+    bilde: "/images/Cæsarsalat.jpg",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const meny = [
     pris: "89 kr",
     ingredienser: "Brownie, vaniljeis, sjokoladesaus",
     kategori: "Dessert",
+    bilde: "/images/Brownie med is.jpg",
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const meny = [
     pris: "199 kr",
     ingredienser: "Kjøttdeig, mais, ost, guacamole",
     kategori: "Hovedrett",
+    bilde: "/images/Taco-tallerken.jpg",
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export const meny = [
     pris: "99 kr",
     ingredienser: "Pannekaker, jordbærsyltetøy, sukker",
     kategori: "Dessert",
+    bilde: "/images/Pannekaker med syltetøy.jpg",
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ export const meny = [
     pris: "149 kr",
     ingredienser: "Reker, sitron, dill, brød",
     kategori: "Forrett",
+    bilde: "/images/Reker med sitron.jpg",
   },
   {
     id: 10,
@@ -68,5 +77,6 @@ export const meny = [
     pris: "289 kr",
     ingredienser: "Entrecôte, asparges, poteter, peppersaus",
     kategori: "Hovedrett",
+    bilde: "/images/Entrecôte med grønnsaker.jpg",
   },
 ];

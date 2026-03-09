@@ -11,6 +11,7 @@ function Menu({ dishes }) {
           pris={dish.pris}
           ingredienser={dish.ingredienser}
           kategori={dish.kategori}
+          bilde={dish.bilde}
         />
       ))}
     </section>
